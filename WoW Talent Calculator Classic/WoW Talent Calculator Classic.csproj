@@ -107,405 +107,1203 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\Druid.xml" />
-    <Content Include="Data\Hunter.xml" />
-    <Content Include="Data\Mage.xml" />
-    <Content Include="Data\Paladin.xml" />
-    <Content Include="Data\Priest.xml" />
-    <Content Include="Data\Rogue.xml" />
-    <Content Include="Data\Shaman.xml" />
-    <Content Include="Data\Warlock.xml" />
-    <Content Include="Data\Warrior.xml" />
-    <Content Include="icon.ico" />
-    <Content Include="settings.txt" />
-    <Content Include="Textures\Arrows\ArrowLeftLong.png" />
-    <Content Include="Textures\Arrows\ArrowLeftMedium.png" />
-    <Content Include="Textures\Arrows\ArrowLeftShort.png" />
-    <Content Include="Textures\Arrows\ArrowLong.png" />
-    <Content Include="Textures\Arrows\ArrowLongest.png" />
-    <Content Include="Textures\Arrows\ArrowMedium.png" />
-    <Content Include="Textures\Arrows\ArrowRightLong.png" />
-    <Content Include="Textures\Arrows\ArrowRightMedium.png" />
-    <Content Include="Textures\Arrows\ArrowRightShort.png" />
-    <Content Include="Textures\Arrows\ArrowShort.png" />
-    <Content Include="Textures\Druid\Balance.png" />
-    <Content Include="Textures\Druid\Feral Combat.png" />
-    <Content Include="Textures\Druid\Restoration.png" />
-    <Content Include="Textures\Hunter\Aimed Shot.png" />
-    <Content Include="Textures\Hunter\Barrage.png" />
-    <Content Include="Textures\Hunter\Beast Mastery.png" />
-    <Content Include="Textures\Hunter\Bestial Discipline.png" />
-    <Content Include="Textures\Hunter\Bestial Swiftness.png" />
-    <Content Include="Textures\Hunter\Bestial Wrath.png" />
-    <Content Include="Textures\Hunter\Clever Traps.png" />
-    <Content Include="Textures\Hunter\Counterattack.png" />
-    <Content Include="Textures\Hunter\Deflection.png" />
-    <Content Include="Textures\Hunter\Deterrence.png" />
-    <Content Include="Textures\Hunter\Efficiency.png" />
-    <Content Include="Textures\Hunter\Endurance Training.png" />
-    <Content Include="Textures\Hunter\Entrapment.png" />
-    <Content Include="Textures\Hunter\Ferocity.png" />
-    <Content Include="Textures\Hunter\Frenzy.png" />
-    <Content Include="Textures\Hunter\Hawk Eye.png" />
-    <Content Include="Textures\Hunter\Humanoid Slaying.png" />
-    <Content Include="Textures\Hunter\Improved Arcane Shot.png" />
-    <Content Include="Textures\Hunter\Improved Aspect of the Hawk.png" />
-    <Content Include="Textures\Hunter\Improved Aspect of the Monkey.png" />
-    <Content Include="Textures\Hunter\Improved Concussive Shot.png" />
-    <Content Include="Textures\Hunter\Improved Eyes of the Beast.png" />
-    <Content Include="Textures\Hunter\Improved Feign Death.png" />
-    <Content Include="Textures\Hunter\Improved Hunter%27s Mark.png" />
-    <Content Include="Textures\Hunter\Improved Mend Pet.png" />
-    <Content Include="Textures\Hunter\Improved Revive Pet.png" />
-    <Content Include="Textures\Hunter\Improved Scorpid Sting.png" />
-    <Content Include="Textures\Hunter\Improved Serpent Sting.png" />
-    <Content Include="Textures\Hunter\Improved Wing Clip.png" />
-    <Content Include="Textures\Hunter\Intimidation.png" />
-    <Content Include="Textures\Hunter\Killer Instinct.png" />
-    <Content Include="Textures\Hunter\Lethal Shots.png" />
-    <Content Include="Textures\Hunter\Lightning Reflexes.png" />
-    <Content Include="Textures\Hunter\Marksmanship.png" />
-    <Content Include="Textures\Hunter\Monster Slaying.png" />
-    <Content Include="Textures\Hunter\Mortal Shots.png" />
-    <Content Include="Textures\Hunter\Pathfinding.png" />
-    <Content Include="Textures\Hunter\Ranged Weapon Specialization.png" />
-    <Content Include="Textures\Hunter\Savage Strikes.png" />
-    <Content Include="Textures\Hunter\Scatter Shot.png" />
-    <Content Include="Textures\Hunter\Spirit Bond.png" />
-    <Content Include="Textures\Hunter\Surefooted.png" />
-    <Content Include="Textures\Hunter\Survival.png" />
-    <Content Include="Textures\Hunter\Survivalist.png" />
-    <Content Include="Textures\Hunter\Thick Hide.png" />
-    <Content Include="Textures\Hunter\Trap Mastery.png" />
-    <Content Include="Textures\Hunter\Trueshot Aura.png" />
-    <Content Include="Textures\Hunter\Unleashed Fury.png" />
-    <Content Include="Textures\Hunter\Wyvern Sting.png" />
-    <Content Include="Textures\Icons\ability_ambush.png" />
-    <Content Include="Textures\Icons\ability_backstab.png" />
-    <Content Include="Textures\Icons\ability_bullrush.png" />
-    <Content Include="Textures\Icons\ability_criticalstrike.png" />
-    <Content Include="Textures\Icons\ability_defend.png" />
-    <Content Include="Textures\Icons\ability_devour.png" />
-    <Content Include="Textures\Icons\ability_druid_bash.png" />
-    <Content Include="Textures\Icons\ability_druid_dash.png" />
-    <Content Include="Textures\Icons\ability_druid_demoralizingroar.png" />
-    <Content Include="Textures\Icons\ability_druid_disembowel.png" />
-    <Content Include="Textures\Icons\ability_druid_enrage.png" />
-    <Content Include="Textures\Icons\ability_druid_ferociousbite.png" />
-    <Content Include="Textures\Icons\ability_druid_ravage.png" />
-    <Content Include="Textures\Icons\ability_dualwield.png" />
-    <Content Include="Textures\Icons\ability_ensnare.png" />
-    <Content Include="Textures\Icons\ability_eyeoftheowl.png" />
-    <Content Include="Textures\Icons\ability_fiegndead.png" />
-    <Content Include="Textures\Icons\ability_ghoulfrenzy.png" />
-    <Content Include="Textures\Icons\ability_golemstormbolt.png" />
-    <Content Include="Textures\Icons\ability_golemthunderclap.png" />
-    <Content Include="Textures\Icons\ability_gouge.png" />
-    <Content Include="Textures\Icons\ability_hibernation.png" />
-    <Content Include="Textures\Icons\ability_hunter_aspectofthemonkey.png" />
-    <Content Include="Textures\Icons\ability_hunter_beastsoothe.png" />
-    <Content Include="Textures\Icons\ability_hunter_criticalshot.png" />
-    <Content Include="Textures\Icons\ability_hunter_mendpet.png" />
-    <Content Include="Textures\Icons\ability_hunter_pet_bear.png" />
-    <Content Include="Textures\Icons\ability_hunter_pet_cat.png" />
-    <Content Include="Textures\Icons\ability_hunter_pet_hyena.png" />
-    <Content Include="Textures\Icons\ability_hunter_quickshot.png" />
-    <Content Include="Textures\Icons\ability_hunter_snipershot.png" />
-    <Content Include="Textures\Icons\ability_hunter_swiftstrike.png" />
-    <Content Include="Textures\Icons\ability_impalingbolt.png" />
-    <Content Include="Textures\Icons\ability_kick.png" />
-    <Content Include="Textures\Icons\ability_marksmanship.png" />
-    <Content Include="Textures\Icons\ability_mount_jungletiger.png" />
-    <Content Include="Textures\Icons\ability_parry.png" />
-    <Content Include="Textures\Icons\ability_piercedamage.png" />
-    <Content Include="Textures\Icons\ability_poisons.png" />
-    <Content Include="Textures\Icons\ability_racial_avatar.png" />
-    <Content Include="Textures\Icons\ability_racial_bloodrage.png" />
-    <Content Include="Textures\Icons\ability_racial_cannibalize.png" />
-    <Content Include="Textures\Icons\ability_rogue_ambush.png" />
-    <Content Include="Textures\Icons\ability_rogue_eviscerate.png" />
-    <Content Include="Textures\Icons\ability_rogue_feigndeath.png" />
-    <Content Include="Textures\Icons\ability_rogue_feint.png" />
-    <Content Include="Textures\Icons\ability_rogue_kidneyshot.png" />
-    <Content Include="Textures\Icons\ability_rogue_slicedice.png" />
-    <Content Include="Textures\Icons\ability_rogue_sprint.png" />
-    <Content Include="Textures\Icons\ability_rogue_trip.png" />
-    <Content Include="Textures\Icons\ability_sap.png" />
-    <Content Include="Textures\Icons\ability_searingarrow.png" />
-    <Content Include="Textures\Icons\ability_shockwave.png" />
-    <Content Include="Textures\Icons\ability_stealth.png" />
-    <Content Include="Textures\Icons\ability_thunderbolt.png" />
-    <Content Include="Textures\Icons\ability_thunderclap.png" />
-    <Content Include="Textures\Icons\ability_townwatch.png" />
-    <Content Include="Textures\Icons\ability_trueshot.png" />
-    <Content Include="Textures\Icons\ability_upgrademoonglaive.png" />
-    <Content Include="Textures\Icons\ability_warrior_battleshout.png" />
-    <Content Include="Textures\Icons\ability_warrior_challange.png" />
-    <Content Include="Textures\Icons\ability_warrior_charge.png" />
-    <Content Include="Textures\Icons\ability_warrior_cleave.png" />
-    <Content Include="Textures\Icons\ability_warrior_decisivestrike.png" />
-    <Content Include="Textures\Icons\ability_warrior_disarm.png" />
-    <Content Include="Textures\Icons\ability_warrior_innerrage.png" />
-    <Content Include="Textures\Icons\ability_warrior_punishingblow.png" />
-    <Content Include="Textures\Icons\ability_warrior_revenge.png" />
-    <Content Include="Textures\Icons\ability_warrior_riposte.png" />
-    <Content Include="Textures\Icons\ability_warrior_savageblow.png" />
-    <Content Include="Textures\Icons\ability_warrior_shieldbash.png" />
-    <Content Include="Textures\Icons\ability_warrior_shieldwall.png" />
-    <Content Include="Textures\Icons\ability_warrior_sunder.png" />
-    <Content Include="Textures\Icons\ability_warrior_warcry.png" />
-    <Content Include="Textures\Icons\ability_whirlwind.png" />
-    <Content Include="Textures\Icons\inv_ammo_firetar.png" />
-    <Content Include="Textures\Icons\inv_axe_06.png" />
-    <Content Include="Textures\Icons\inv_axe_09.png" />
-    <Content Include="Textures\Icons\inv_axe_10.png" />
-    <Content Include="Textures\Icons\inv_enchant_essenceeternallarge.png" />
-    <Content Include="Textures\Icons\inv_gauntlets_04.png" />
-    <Content Include="Textures\Icons\inv_hammer_04.png" />
-    <Content Include="Textures\Icons\inv_mace_01.png" />
-    <Content Include="Textures\Icons\inv_misc_gem_sapphire_01.png" />
-    <Content Include="Textures\Icons\inv_misc_head_dragon_black.png" />
-    <Content Include="Textures\Icons\inv_misc_monsterclaw_03.png" />
-    <Content Include="Textures\Icons\inv_misc_monsterclaw_04.png" />
-    <Content Include="Textures\Icons\inv_misc_pelt_bear_03.png" />
-    <Content Include="Textures\Icons\inv_relics_idolofrejuvenation.png" />
-    <Content Include="Textures\Icons\inv_shield_05.png" />
-    <Content Include="Textures\Icons\inv_shield_06.png" />
-    <Content Include="Textures\Icons\inv_spear_02.png" />
-    <Content Include="Textures\Icons\inv_spear_07.png" />
-    <Content Include="Textures\Icons\inv_staff_01.png" />
-    <Content Include="Textures\Icons\inv_stone_04.png" />
-    <Content Include="Textures\Icons\inv_sword_05.png" />
-    <Content Include="Textures\Icons\inv_sword_17.png" />
-    <Content Include="Textures\Icons\inv_sword_20.png" />
-    <Content Include="Textures\Icons\inv_sword_27.png" />
-    <Content Include="Textures\Icons\inv_sword_48.png" />
-    <Content Include="Textures\Icons\inv_wand_01.png" />
-    <Content Include="Textures\Icons\inv_weapon_crossbow_11.png" />
-    <Content Include="Textures\Icons\inv_weapon_halbard_01.png" />
-    <Content Include="Textures\Icons\inv_weapon_rifle_06.png" />
-    <Content Include="Textures\Icons\inv_weapon_shortblade_05.png" />
-    <Content Include="Textures\Icons\spell_arcane_arcaneresilience.png" />
-    <Content Include="Textures\Icons\spell_arcane_blink.png" />
-    <Content Include="Textures\Icons\spell_arcane_starfire.png" />
-    <Content Include="Textures\Icons\spell_fire_elementaldevastation.png" />
-    <Content Include="Textures\Icons\spell_fire_enchantweapon.png" />
-    <Content Include="Textures\Icons\spell_fire_fire.png" />
-    <Content Include="Textures\Icons\spell_fire_firearmor.png" />
-    <Content Include="Textures\Icons\spell_fire_fireball.png" />
-    <Content Include="Textures\Icons\spell_fire_fireball02.png" />
-    <Content Include="Textures\Icons\spell_fire_firebolt.png" />
-    <Content Include="Textures\Icons\spell_fire_flamebolt.png" />
-    <Content Include="Textures\Icons\spell_fire_flameshock.png" />
-    <Content Include="Textures\Icons\spell_fire_flametounge.png" />
-    <Content Include="Textures\Icons\spell_fire_flare.png" />
-    <Content Include="Textures\Icons\spell_fire_immolation.png" />
-    <Content Include="Textures\Icons\spell_fire_incinerate.png" />
-    <Content Include="Textures\Icons\spell_fire_lavaspawn.png" />
-    <Content Include="Textures\Icons\spell_fire_masterofelements.png" />
-    <Content Include="Textures\Icons\spell_fire_meteorstorm.png" />
-    <Content Include="Textures\Icons\spell_fire_sealoffire.png" />
-    <Content Include="Textures\Icons\spell_fire_selfdestruct.png" />
-    <Content Include="Textures\Icons\spell_fire_soulburn.png" />
-    <Content Include="Textures\Icons\spell_fire_volcano.png" />
-    <Content Include="Textures\Icons\spell_fire_windsofwoe.png" />
-    <Content Include="Textures\Icons\spell_frost_chillingblast.png" />
-    <Content Include="Textures\Icons\spell_frost_freezingbreath.png" />
-    <Content Include="Textures\Icons\spell_frost_frost.png" />
-    <Content Include="Textures\Icons\spell_frost_frostarmor.png" />
-    <Content Include="Textures\Icons\spell_frost_frostbolt.png" />
-    <Content Include="Textures\Icons\spell_frost_frostbolt02.png" />
-    <Content Include="Textures\Icons\spell_frost_frostshock.png" />
-    <Content Include="Textures\Icons\spell_frost_frostward.png" />
-    <Content Include="Textures\Icons\spell_frost_glacier.png" />
-    <Content Include="Textures\Icons\spell_frost_iceshard.png" />
-    <Content Include="Textures\Icons\spell_frost_iceshock.png" />
-    <Content Include="Textures\Icons\spell_frost_icestorm.png" />
-    <Content Include="Textures\Icons\spell_frost_manarecharge.png" />
-    <Content Include="Textures\Icons\spell_frost_stun.png" />
-    <Content Include="Textures\Icons\spell_frost_summonwaterelemental.png" />
-    <Content Include="Textures\Icons\spell_frost_windwalkon.png" />
-    <Content Include="Textures\Icons\spell_frost_wisp.png" />
-    <Content Include="Textures\Icons\spell_frost_wizardmark.png" />
-    <Content Include="Textures\Icons\spell_holy_ashestoashes.png" />
-    <Content Include="Textures\Icons\spell_holy_auraoflight.png" />
-    <Content Include="Textures\Icons\spell_holy_blessedrecovery.png" />
-    <Content Include="Textures\Icons\spell_holy_blessingofagility.png" />
-    <Content Include="Textures\Icons\spell_holy_blessingofprotection.png" />
-    <Content Include="Textures\Icons\spell_holy_blessingofstamina.png" />
-    <Content Include="Textures\Icons\spell_holy_blessingofstrength.png" />
-    <Content Include="Textures\Icons\spell_holy_devotion.png" />
-    <Content Include="Textures\Icons\spell_holy_devotionaura.png" />
-    <Content Include="Textures\Icons\spell_holy_dispelmagic.png" />
-    <Content Include="Textures\Icons\spell_holy_divinespirit.png" />
-    <Content Include="Textures\Icons\spell_holy_elunesgrace.png" />
-    <Content Include="Textures\Icons\spell_holy_excorcism_02.png" />
-    <Content Include="Textures\Icons\spell_holy_eyeforaneye.png" />
-    <Content Include="Textures\Icons\spell_holy_fistofjustice.png" />
-    <Content Include="Textures\Icons\spell_holy_greaterheal.png" />
-    <Content Include="Textures\Icons\spell_holy_heal.png" />
-    <Content Include="Textures\Icons\spell_holy_heal02.png" />
-    <Content Include="Textures\Icons\spell_holy_healingaura.png" />
-    <Content Include="Textures\Icons\spell_holy_healingfocus.png" />
-    <Content Include="Textures\Icons\spell_holy_holybolt.png" />
-    <Content Include="Textures\Icons\spell_holy_holynova.png" />
-    <Content Include="Textures\Icons\spell_holy_holysmite.png" />
-    <Content Include="Textures\Icons\spell_holy_innerfire.png" />
-    <Content Include="Textures\Icons\spell_holy_layonhands.png" />
-    <Content Include="Textures\Icons\spell_holy_magicalsentry.png" />
-    <Content Include="Textures\Icons\spell_holy_mindsooth.png" />
-    <Content Include="Textures\Icons\spell_holy_mindvision.png" />
-    <Content Include="Textures\Icons\spell_holy_persuitofjustice.png" />
-    <Content Include="Textures\Icons\spell_holy_power.png" />
-    <Content Include="Textures\Icons\spell_holy_powerinfusion.png" />
-    <Content Include="Textures\Icons\spell_holy_powerwordshield.png" />
-    <Content Include="Textures\Icons\spell_holy_prayerofhealing.png" />
-    <Content Include="Textures\Icons\spell_holy_prayerofhealing02.png" />
-    <Content Include="Textures\Icons\spell_holy_purify.png" />
-    <Content Include="Textures\Icons\spell_holy_renew.png" />
-    <Content Include="Textures\Icons\spell_holy_retributionaura.png" />
-    <Content Include="Textures\Icons\spell_holy_righteousfury.png" />
-    <Content Include="Textures\Icons\spell_holy_sealoffury.png" />
-    <Content Include="Textures\Icons\spell_holy_sealofmight.png" />
-    <Content Include="Textures\Icons\spell_holy_sealofprotection.png" />
-    <Content Include="Textures\Icons\spell_holy_sealofsalvation.png" />
-    <Content Include="Textures\Icons\spell_holy_sealofwisdom.png" />
-    <Content Include="Textures\Icons\spell_holy_sealofwrath.png" />
-    <Content Include="Textures\Icons\spell_holy_searinglight.png" />
-    <Content Include="Textures\Icons\spell_holy_searinglightpriest.png" />
-    <Content Include="Textures\Icons\spell_holy_spellwarding.png" />
-    <Content Include="Textures\Icons\spell_holy_spiritualguidence.png" />
-    <Content Include="Textures\Icons\spell_holy_summonlightwell.png" />
-    <Content Include="Textures\Icons\spell_holy_unyieldingfaith.png" />
-    <Content Include="Textures\Icons\spell_holy_vindication.png" />
-    <Content Include="Textures\Icons\spell_holy_wordfortitude.png" />
-    <Content Include="Textures\Icons\spell_ice_lament.png" />
-    <Content Include="Textures\Icons\spell_ice_magicdamage.png" />
-    <Content Include="Textures\Icons\spell_lightning_lightningbolt01.png" />
-    <Content Include="Textures\Icons\spell_magic_lesserinvisibilty.png" />
-    <Content Include="Textures\Icons\spell_magic_magearmor.png" />
-    <Content Include="Textures\Icons\spell_nature_abolishmagic.png" />
-    <Content Include="Textures\Icons\spell_nature_ancestralguardian.png" />
-    <Content Include="Textures\Icons\spell_nature_astralrecalgroup.png" />
-    <Content Include="Textures\Icons\spell_nature_bloodlust.png" />
-    <Content Include="Textures\Icons\spell_nature_callstorm.png" />
-    <Content Include="Textures\Icons\spell_nature_crystalball.png" />
-    <Content Include="Textures\Icons\spell_nature_earthbindtotem.png" />
-    <Content Include="Textures\Icons\spell_nature_enchantarmor.png" />
-    <Content Include="Textures\Icons\spell_nature_eyeofthestorm.png" />
-    <Content Include="Textures\Icons\spell_nature_faeriefire.png" />
-    <Content Include="Textures\Icons\spell_nature_forceofnature.png" />
-    <Content Include="Textures\Icons\spell_nature_healingtouch.png" />
-    <Content Include="Textures\Icons\spell_nature_healingwavegreater.png" />
-    <Content Include="Textures\Icons\spell_nature_healingwavelesser.png" />
-    <Content Include="Textures\Icons\spell_nature_healingway.png" />
-    <Content Include="Textures\Icons\spell_nature_insectswarm.png" />
-    <Content Include="Textures\Icons\spell_nature_invisibilty.png" />
-    <Content Include="Textures\Icons\spell_nature_lightning.png" />
-    <Content Include="Textures\Icons\spell_nature_lightningshield.png" />
-    <Content Include="Textures\Icons\spell_nature_magicimmunity.png" />
-    <Content Include="Textures\Icons\spell_nature_manaregentotem.png" />
-    <Content Include="Textures\Icons\spell_nature_mirrorimage.png" />
-    <Content Include="Textures\Icons\spell_nature_moonglow.png" />
-    <Content Include="Textures\Icons\spell_nature_naturesblessing.png" />
-    <Content Include="Textures\Icons\spell_nature_natureswrath.png" />
-    <Content Include="Textures\Icons\spell_nature_naturetouchgrow.png" />
-    <Content Include="Textures\Icons\spell_nature_nullward.png" />
-    <Content Include="Textures\Icons\spell_nature_protectionformnature.png" />
-    <Content Include="Textures\Icons\spell_nature_purge.png" />
-    <Content Include="Textures\Icons\spell_nature_ravenform.png" />
-    <Content Include="Textures\Icons\spell_nature_regeneration.png" />
-    <Content Include="Textures\Icons\spell_nature_reincarnation.png" />
-    <Content Include="Textures\Icons\spell_nature_rejuvenation.png" />
-    <Content Include="Textures\Icons\spell_nature_removecurse.png" />
-    <Content Include="Textures\Icons\spell_nature_resistnature.png" />
-    <Content Include="Textures\Icons\spell_nature_sentinal.png" />
-    <Content Include="Textures\Icons\spell_nature_sleep.png" />
-    <Content Include="Textures\Icons\spell_nature_slowingtotem.png" />
-    <Content Include="Textures\Icons\spell_nature_spiritarmor.png" />
-    <Content Include="Textures\Icons\spell_nature_spiritwolf.png" />
-    <Content Include="Textures\Icons\spell_nature_starfall.png" />
-    <Content Include="Textures\Icons\spell_nature_stoneclawtotem.png" />
-    <Content Include="Textures\Icons\spell_nature_stoneskintotem.png" />
-    <Content Include="Textures\Icons\spell_nature_stormreach.png" />
-    <Content Include="Textures\Icons\spell_nature_stranglevines.png" />
-    <Content Include="Textures\Icons\spell_nature_thorns.png" />
-    <Content Include="Textures\Icons\spell_nature_timestop.png" />
-    <Content Include="Textures\Icons\spell_nature_tranquility.png" />
-    <Content Include="Textures\Icons\spell_nature_undyingstrength.png" />
-    <Content Include="Textures\Icons\spell_nature_unyeildingstamina.png" />
-    <Content Include="Textures\Icons\spell_nature_wispheal.png" />
-    <Content Include="Textures\Icons\spell_nature_wispsplode.png" />
-    <Content Include="Textures\Icons\spell_shadow_abominationexplosion.png" />
-    <Content Include="Textures\Icons\spell_shadow_antishadow.png" />
-    <Content Include="Textures\Icons\spell_shadow_blackplague.png" />
-    <Content Include="Textures\Icons\spell_shadow_burningspirit.png" />
-    <Content Include="Textures\Icons\spell_shadow_callofbone.png" />
-    <Content Include="Textures\Icons\spell_shadow_charm.png" />
-    <Content Include="Textures\Icons\spell_shadow_chilltouch.png" />
-    <Content Include="Textures\Icons\spell_shadow_contagion.png" />
-    <Content Include="Textures\Icons\spell_shadow_corpseexplode.png" />
-    <Content Include="Textures\Icons\spell_shadow_curse.png" />
-    <Content Include="Textures\Icons\spell_shadow_curseofmannoroth.png" />
-    <Content Include="Textures\Icons\spell_shadow_curseofsargeras.png" />
-    <Content Include="Textures\Icons\spell_shadow_darkritual.png" />
-    <Content Include="Textures\Icons\spell_shadow_deathpact.png" />
-    <Content Include="Textures\Icons\spell_shadow_deathscream.png" />
-    <Content Include="Textures\Icons\spell_shadow_detectlesserinvisibility.png" />
-    <Content Include="Textures\Icons\spell_shadow_enslavedemon.png" />
-    <Content Include="Textures\Icons\spell_shadow_fingerofdeath.png" />
-    <Content Include="Textures\Icons\spell_shadow_fumble.png" />
-    <Content Include="Textures\Icons\spell_shadow_gathershadows.png" />
-    <Content Include="Textures\Icons\spell_shadow_grimward.png" />
-    <Content Include="Textures\Icons\spell_shadow_haunting.png" />
-    <Content Include="Textures\Icons\spell_shadow_impphaseshift.png" />
-    <Content Include="Textures\Icons\spell_shadow_improvedvampiricembrace.png" />
-    <Content Include="Textures\Icons\spell_shadow_lifedrain.png" />
-    <Content Include="Textures\Icons\spell_shadow_lifedrain02.png" />
-    <Content Include="Textures\Icons\spell_shadow_manaburn.png" />
-    <Content Include="Textures\Icons\spell_shadow_metamorphosis.png" />
-    <Content Include="Textures\Icons\spell_shadow_possession.png" />
-    <Content Include="Textures\Icons\spell_shadow_psychicscream.png" />
-    <Content Include="Textures\Icons\spell_shadow_requiem.png" />
-    <Content Include="Textures\Icons\spell_shadow_ritualofsacrifice.png" />
-    <Content Include="Textures\Icons\spell_shadow_scourgebuild.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadetruesight.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadowbolt.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadowform.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadowpact.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadowward.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadowworddominate.png" />
-    <Content Include="Textures\Icons\spell_shadow_shadowwordpain.png" />
-    <Content Include="Textures\Icons\spell_shadow_siphonmana.png" />
-    <Content Include="Textures\Icons\spell_shadow_summonimp.png" />
-    <Content Include="Textures\Icons\spell_shadow_summonsuccubus.png" />
-    <Content Include="Textures\Icons\spell_shadow_summonvoidwalker.png" />
-    <Content Include="Textures\Icons\spell_shadow_teleport.png" />
-    <Content Include="Textures\Icons\spell_shadow_twilight.png" />
-    <Content Include="Textures\Icons\spell_shadow_unholyfrenzy.png" />
-    <Content Include="Textures\Icons\spell_shadow_unsummonbuilding.png" />
-    <Content Include="Textures\Icons\spell_shadow_vampiricaura.png" />
-    <Content Include="Textures\Mage\Arcane.png" />
-    <Content Include="Textures\Mage\Fire.png" />
-    <Content Include="Textures\Mage\Frost.png" />
-    <Content Include="Textures\Paladin\Holy.png" />
-    <Content Include="Textures\Paladin\Protection.png" />
-    <Content Include="Textures\Paladin\Retribution.png" />
-    <Content Include="Textures\Priest\Discipline.png" />
-    <Content Include="Textures\Priest\Holy.png" />
-    <Content Include="Textures\Priest\Shadow.png" />
-    <Content Include="Textures\Rogue\Assassination.png" />
-    <Content Include="Textures\Rogue\Combat.png" />
-    <Content Include="Textures\Rogue\Subtlety.png" />
-    <Content Include="Textures\Shaman\Elemental.png" />
-    <Content Include="Textures\Shaman\Enhancement.png" />
-    <Content Include="Textures\Shaman\Restoration.png" />
-    <Content Include="Textures\Warlock\Affliction.png" />
-    <Content Include="Textures\Warlock\Demonology.png" />
-    <Content Include="Textures\Warlock\Destruction.png" />
-    <Content Include="Textures\Warrior\Arms.png" />
-    <Content Include="Textures\Warrior\Fury.png" />
-    <Content Include="Textures\Warrior\Protection.png" />
+    <Content Include="Data\Druid.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Hunter.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Mage.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Paladin.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Priest.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Rogue.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Shaman.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Warlock.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Warrior.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowLeftLong.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowLeftMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowLeftShort.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowLong.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowLongest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowRightLong.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowRightMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowRightShort.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Arrows\ArrowShort.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Druid\Balance.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Druid\Feral Combat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Druid\Restoration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Aimed Shot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Barrage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Beast Mastery.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Bestial Discipline.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Bestial Swiftness.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Bestial Wrath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Clever Traps.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Counterattack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Deflection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Deterrence.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Efficiency.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Endurance Training.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Entrapment.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Ferocity.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Frenzy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Hawk Eye.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Humanoid Slaying.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Arcane Shot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Aspect of the Hawk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Aspect of the Monkey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Concussive Shot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Eyes of the Beast.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Feign Death.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Hunter%27s Mark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Mend Pet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Revive Pet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Scorpid Sting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Serpent Sting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Improved Wing Clip.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Intimidation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Killer Instinct.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Lethal Shots.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Lightning Reflexes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Marksmanship.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Monster Slaying.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Mortal Shots.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Pathfinding.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Ranged Weapon Specialization.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Savage Strikes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Scatter Shot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Spirit Bond.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Surefooted.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Survival.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Survivalist.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Thick Hide.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Trap Mastery.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Trueshot Aura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Unleashed Fury.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Hunter\Wyvern Sting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_ambush.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_backstab.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_bullrush.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_criticalstrike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_defend.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_devour.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_bash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_dash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_demoralizingroar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_disembowel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_enrage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_ferociousbite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_druid_ravage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_dualwield.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_ensnare.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_eyeoftheowl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_fiegndead.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_ghoulfrenzy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_golemstormbolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_golemthunderclap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_gouge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hibernation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_aspectofthemonkey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_beastsoothe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_criticalshot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_mendpet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_pet_bear.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_pet_cat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_pet_hyena.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_quickshot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_snipershot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_hunter_swiftstrike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_impalingbolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_kick.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_marksmanship.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_mount_jungletiger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_parry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_piercedamage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_poisons.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_racial_avatar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_racial_bloodrage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_racial_cannibalize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_ambush.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_eviscerate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_feigndeath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_feint.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_kidneyshot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_slicedice.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_sprint.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_rogue_trip.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_sap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_searingarrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_shockwave.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_stealth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_thunderbolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_thunderclap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_townwatch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_trueshot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_upgrademoonglaive.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_battleshout.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_challange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_charge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_cleave.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_decisivestrike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_disarm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_innerrage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_punishingblow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_revenge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_riposte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_savageblow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_shieldbash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_shieldwall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_sunder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_warrior_warcry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\ability_whirlwind.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_ammo_firetar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_axe_06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_axe_09.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_axe_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_enchant_essenceeternallarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_gauntlets_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_hammer_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_mace_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_misc_gem_sapphire_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_misc_head_dragon_black.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_misc_monsterclaw_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_misc_monsterclaw_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_misc_pelt_bear_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_relics_idolofrejuvenation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_shield_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_shield_06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_spear_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_spear_07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_staff_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_stone_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_sword_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_sword_17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_sword_20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_sword_27.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_sword_48.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_wand_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_weapon_crossbow_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_weapon_halbard_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_weapon_rifle_06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\inv_weapon_shortblade_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_arcane_arcaneresilience.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_arcane_blink.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_arcane_starfire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_elementaldevastation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_enchantweapon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_fire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_firearmor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_fireball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_fireball02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_firebolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_flamebolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_flameshock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_flametounge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_flare.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_immolation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_incinerate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_lavaspawn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_masterofelements.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_meteorstorm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_sealoffire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_selfdestruct.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_soulburn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_volcano.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_fire_windsofwoe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_chillingblast.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_freezingbreath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_frost.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_frostarmor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_frostbolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_frostbolt02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_frostshock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_frostward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_glacier.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_iceshard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_iceshock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_icestorm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_manarecharge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_stun.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_summonwaterelemental.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_windwalkon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_wisp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_frost_wizardmark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_ashestoashes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_auraoflight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_blessedrecovery.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_blessingofagility.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_blessingofprotection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_blessingofstamina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_blessingofstrength.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_devotion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_devotionaura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_dispelmagic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_divinespirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_elunesgrace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_excorcism_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_eyeforaneye.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_fistofjustice.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_greaterheal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_heal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_heal02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_healingaura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_healingfocus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_holybolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_holynova.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_holysmite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_innerfire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_layonhands.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_magicalsentry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_mindsooth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_mindvision.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_persuitofjustice.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_power.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_powerinfusion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_powerwordshield.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_prayerofhealing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_prayerofhealing02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_purify.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_renew.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_retributionaura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_righteousfury.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_sealoffury.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_sealofmight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_sealofprotection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_sealofsalvation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_sealofwisdom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_sealofwrath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_searinglight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_searinglightpriest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_spellwarding.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_spiritualguidence.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_summonlightwell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_unyieldingfaith.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_vindication.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_holy_wordfortitude.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_ice_lament.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_ice_magicdamage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_lightning_lightningbolt01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_magic_lesserinvisibilty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_magic_magearmor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_abolishmagic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_ancestralguardian.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_astralrecalgroup.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_bloodlust.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_callstorm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_crystalball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_earthbindtotem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_enchantarmor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_eyeofthestorm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_faeriefire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_forceofnature.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_healingtouch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_healingwavegreater.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_healingwavelesser.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_healingway.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_insectswarm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_invisibilty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_lightning.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_lightningshield.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_magicimmunity.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_manaregentotem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_mirrorimage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_moonglow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_naturesblessing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_natureswrath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_naturetouchgrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_nullward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_protectionformnature.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_purge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_ravenform.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_regeneration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_reincarnation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_rejuvenation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_removecurse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_resistnature.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_sentinal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_sleep.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_slowingtotem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_spiritarmor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_spiritwolf.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_starfall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_stoneclawtotem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_stoneskintotem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_stormreach.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_stranglevines.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_thorns.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_timestop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_tranquility.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_undyingstrength.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_unyeildingstamina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_wispheal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_nature_wispsplode.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_abominationexplosion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_antishadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_blackplague.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_burningspirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_callofbone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_charm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_chilltouch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_contagion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_corpseexplode.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_curse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_curseofmannoroth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_curseofsargeras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_darkritual.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_deathpact.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_deathscream.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_detectlesserinvisibility.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_enslavedemon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_fingerofdeath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_fumble.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_gathershadows.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_grimward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_haunting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_impphaseshift.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_improvedvampiricembrace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_lifedrain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_lifedrain02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_manaburn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_metamorphosis.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_possession.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_psychicscream.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_requiem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_ritualofsacrifice.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_scourgebuild.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadetruesight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadowbolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadowform.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadowpact.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadowward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadowworddominate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_shadowwordpain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_siphonmana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_summonimp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_summonsuccubus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_summonvoidwalker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_teleport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_twilight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_unholyfrenzy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_unsummonbuilding.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Icons\spell_shadow_vampiricaura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Mage\Arcane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Mage\Fire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Mage\Frost.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Paladin\Holy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Paladin\Protection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Paladin\Retribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Priest\Discipline.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Priest\Holy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Priest\Shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Rogue\Assassination.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Rogue\Combat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Rogue\Subtlety.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Shaman\Elemental.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Shaman\Enhancement.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Shaman\Restoration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Warlock\Affliction.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Warlock\Demonology.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Warlock\Destruction.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Warrior\Arms.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Warrior\Fury.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Warrior\Protection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
