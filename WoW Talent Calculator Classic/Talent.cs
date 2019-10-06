@@ -1,5 +1,4 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Xml;
@@ -9,173 +8,117 @@ namespace WoW_Talent_Calculator_Classic
     //class to store talents
     class Talent
     {
-        //talent's icon
-        private string icon;
-        //talent's name
-        private string name;
-        //talent's max points
-        private int points;
-        //talent's dependancy
-        private string dependancy;
-        //arrow pointing dependancy
-        private string arrow;
-        //arrow's coordinates
-        private int x, y;
-        //talent's tier
-        private int tier;
-        //talent's ranks
-        private Rank[] ranks;
-        //current talent's rank
-        private int rank;
-        //talent's icons in color and grayscale
-        private Bitmap picture, gray;
-        //arrow's graphics in color and grayscale
-        private Bitmap arrow1, arrow2;
         //file reader
         private Stream reader;
+
+        //talent's icon
+        public string Icon { get; }
+
+        //talent's name
+        public string Name { get; }
+
+        //talent's max points
+        public int Points { get; }
+
+        //talent's dependancy
+        public string Dependancy { get; }
+
+        //arrow pointing dependancy
+        public string Arrow { get; }
+
+        //arrow's x coordinate
+        public int X { get; }
+
+        //arrow's y coordinate
+        public int Y { get; }
+
+        //talent's tier
+        public int Tier { get; }
+
+        //talent's ranks
+        public Rank[] Ranks { get; }
+
+        //current talent's rank
+        public int Rank { set; get; }
+
+        //talent's icon in color
+        public Bitmap Picture { get; }
+
+        //talent's icon in grayscale
+        public Bitmap Gray { get; }
+
+        //arrow's graphics in color
+        public Bitmap Arrow1 { get; }
+
+        //arrow's graphics in grayscale
+        public Bitmap Arrow2 { get; }
+
         //talent's color
-        private Color backColor;
+        public Color BackColor { set; get; }
 
         //read and set data
         public Talent(XmlNode talent)
         {
-            icon = talent.ChildNodes[0].InnerText;
-            name = talent.ChildNodes[1].InnerText;
+            Icon = talent.ChildNodes[0].InnerText;
+            Name = talent.ChildNodes[1].InnerText;
             if (talent.ChildNodes[2].InnerText != "")
             {
-                points = Int32.Parse(talent.ChildNodes[2].InnerText);
+                Points = int.Parse(talent.ChildNodes[2].InnerText);
             }
             else
             {
-                points = 0;
+                Points = 0;
             }
-            dependancy = talent.ChildNodes[3].InnerText;
+            Dependancy = talent.ChildNodes[3].InnerText;
             if (talent.ChildNodes[4].HasChildNodes)
             {
-                arrow = talent.ChildNodes[4].ChildNodes[0].InnerText;
-                x = Int32.Parse(talent.ChildNodes[4].ChildNodes[1].InnerText);
-                y = Int32.Parse(talent.ChildNodes[4].ChildNodes[2].InnerText);
+                Arrow = talent.ChildNodes[4].ChildNodes[0].InnerText;
+                X = int.Parse(talent.ChildNodes[4].ChildNodes[1].InnerText);
+                Y = int.Parse(talent.ChildNodes[4].ChildNodes[2].InnerText);
             }
             else
             {
-                arrow = talent.ChildNodes[4].InnerText;
+                Arrow = talent.ChildNodes[4].InnerText;
             }
             if (talent.ChildNodes[5].InnerText != "")
             {
-                tier = Int32.Parse(talent.ChildNodes[5].InnerText);
+                Tier = int.Parse(talent.ChildNodes[5].InnerText);
             }
             else
             {
-                tier = 0;
+                Tier = 0;
             }
             if (talent.ChildNodes[6].HasChildNodes)
             {
-                ranks = new Rank[talent.ChildNodes[6].ChildNodes.Count];
-                for (int i = 0; i < ranks.Count(); i++)
+                Ranks = new Rank[talent.ChildNodes[6].ChildNodes.Count];
+                for (int i = 0; i < Ranks.Count(); i++)
                 {
-                    ranks[i] = new Rank(talent.ChildNodes[6].ChildNodes[i]);
+                    Ranks[i] = new Rank(talent.ChildNodes[6].ChildNodes[i]);
                 }
             }
-            if (icon != "")
+            if (Icon != "")
             {
-                reader = File.Open(@"Textures\Icons\" + icon + ".png", FileMode.Open);
-                picture = new Bitmap(reader);
+                reader = File.Open(@"Textures\Icons\" + Icon + ".png", FileMode.Open);
+                Picture = new Bitmap(reader);
                 reader.Close();
-                gray = Grayscale(picture);
+                Gray = Grayscale(Picture);
             }
-            if (arrow != "")
+            if (Arrow != "")
             {
-                reader = File.Open(@"Textures\Arrows\" + arrow + ".png", FileMode.Open);
-                arrow1 = new Bitmap(reader);
+                reader = File.Open(@"Textures\Arrows\" + Arrow + ".png", FileMode.Open);
+                Arrow1 = new Bitmap(reader);
                 reader.Close();
-                arrow2 = Grayscale(arrow1);
+                Arrow2 = Grayscale(Arrow1);
             }
-            backColor = Color.Gray;
-            if (tier == 1)
+            BackColor = Color.Gray;
+            if (Tier == 1)
             {
-                if (dependancy == "")
+                if (Dependancy == "")
                 {
-                    backColor = Color.Green;
+                    BackColor = Color.Green;
                 }
             }
-            rank = 0;
-        }
-
-        public string Icon
-        {
-            get { return icon; }
-        }
-
-        public string Name
-        {
-            get { return name; }
-        }
-
-        public int Points
-        {
-            get { return points; }
-        }
-
-        public string Dependancy
-        {
-            get { return dependancy; }
-        }
-
-        public string Arrow
-        {
-            get { return arrow; }
-        }
-
-        public int X
-        {
-            get { return x; }
-        }
-
-        public int Y
-        {
-            get { return y; }
-        }
-
-        public int Tier
-        {
-            get { return tier; }
-        }
-
-        public Rank[] Ranks
-        {
-            get { return ranks; }
-        }
-
-        public int Rank
-        {
-            set { rank = value; }
-            get { return rank; }
-        }
-
-        public Bitmap Picture
-        {
-            get { return picture; }
-        }
-
-        public Bitmap Gray
-        {
-            get { return gray; }
-        }
-
-        public Bitmap Arrow1
-        {
-            get { return arrow1; }
-        }
-
-        public Bitmap Arrow2
-        {
-            get { return arrow2; }
-        }
-
-        public Color BackColor
-        {
-            set { backColor = value; }
-            get { return backColor; }
+            Rank = 0;
         }
 
         //change color bitmap to grayscale
@@ -202,11 +145,11 @@ namespace WoW_Talent_Calculator_Classic
         //increase current talent's rank
         public bool IncreaseRank(int spent)
         {
-            if ((tier - 1) * 5 <= spent)
+            if ((Tier - 1) * 5 <= spent)
             {
-                if (rank < ranks.Count())
+                if (Rank < Ranks.Count())
                 {
-                    rank++;
+                    Rank++;
                     return true;
                 }
             }
@@ -216,9 +159,9 @@ namespace WoW_Talent_Calculator_Classic
         //decrease current talent's rank
         public bool DecreaseRank()
         {
-            if (rank > 0)
+            if (Rank > 0)
             {
-                rank--;
+                Rank--;
                 return true;
             }
             return false;

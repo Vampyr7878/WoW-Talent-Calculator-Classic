@@ -8,41 +8,27 @@ namespace WoW_Talent_Calculator_Classic
     class Specialization
     {
         //specialization's name
-        private string name;
+        public string Name { get; }
+
         //specialization's talents
-        private Talent[] talents;
+        public Talent[] Talents { get; }
+
         //number of points spent in specific talent
-        private int[] spent;
+        public int[] Spent { set; get; }
 
         public Specialization(XmlNode specialization, int x, int y) //read and set data
         {
-            spent = new int[x];
-            name = specialization.ChildNodes[0].InnerText;
-            talents = new Talent[x * y];
-            for (int i = 0; i < talents.Count(); i++)
+            Spent = new int[x];
+            Name = specialization.ChildNodes[0].InnerText;
+            Talents = new Talent[x * y];
+            for (int i = 0; i < Talents.Count(); i++)
             {
                 if (i % y == 0)
                 {
-                    spent[i / y] = 0;
+                    Spent[i / y] = 0;
                 }
-                talents[i] = new Talent(specialization.ChildNodes[1].ChildNodes[i]);
+                Talents[i] = new Talent(specialization.ChildNodes[1].ChildNodes[i]);
             }
-        }
-
-        public string Name
-        {
-            get { return name; }
-        }
-
-        public Talent[] Talents
-        {
-            get { return talents; }
-        }
-
-        public int[] Spent
-        {
-            set { spent = value; }
-            get { return spent; }
         }
 
         //check if talent is now available
@@ -53,7 +39,7 @@ namespace WoW_Talent_Calculator_Classic
                 talent.BackColor = Color.Gold;
                 return false;
             }
-            else if ((talent.Tier - 1) * 5 > spent.Sum())
+            else if ((talent.Tier - 1) * 5 > Spent.Sum())
             {
                 talent.BackColor = Color.Gray;
                 return false;
@@ -96,9 +82,9 @@ namespace WoW_Talent_Calculator_Classic
                 {
                     text += "Requires " + talent.Points + " points in " + talent.Dependancy + "\n";
                 }
-                if ((talent.Tier - 1) * 5 > spent.Sum())
+                if ((talent.Tier - 1) * 5 > Spent.Sum())
                 {
-                    text += "Requires " + (talent.Tier - 1) * 5 + " points in " + name + " Talents\n";
+                    text += "Requires " + (talent.Tier - 1) * 5 + " points in " + Name + " Talents\n";
                 }
                 text += talent.Ranks[talent.Rank].Description + "\n";
                 if (Availability(talent, points))
@@ -140,11 +126,11 @@ namespace WoW_Talent_Calculator_Classic
         //find talent with specific name
         private Talent FindTalent(string name)
         {
-            for (int i = 0; i < talents.Length; i++)
+            for (int i = 0; i < Talents.Length; i++)
             {
-                if (talents[i].Name == name)
+                if (Talents[i].Name == name)
                 {
-                    return talents[i];
+                    return Talents[i];
                 }
             }
             return null;
@@ -167,11 +153,11 @@ namespace WoW_Talent_Calculator_Classic
         //find dependand talent
         private Talent FindDependancy(string name)
         {
-            for (int i = 0; i < talents.Length; i++)
+            for (int i = 0; i < Talents.Length; i++)
             {
-                if (talents[i].Dependancy == name)
+                if (Talents[i].Dependancy == name)
                 {
-                    return talents[i];
+                    return Talents[i];
                 }
             }
             return null;
@@ -181,15 +167,15 @@ namespace WoW_Talent_Calculator_Classic
         public bool EmptyTiers(int tier)
         {
             int sum = 0;
-            if (tier == spent.Length)
+            if (tier == Spent.Length)
             {
                 return true;
             }
-            if (spent[tier] > 0)
+            if (Spent[tier] > 0)
             {
                 for (int i = tier - 1; i >= 0; i--)
                 {
-                    sum += spent[i];
+                    sum += Spent[i];
                 }
                 if (sum > tier * 5)
                 {

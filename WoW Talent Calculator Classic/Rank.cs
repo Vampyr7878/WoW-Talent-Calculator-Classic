@@ -1,5 +1,4 @@
-﻿using System;
-using System.Xml;
+﻿using System.Xml;
 
 namespace WoW_Talent_Calculator_Classic
 {
@@ -8,19 +7,15 @@ namespace WoW_Talent_Calculator_Classic
     {
         //rank's number
         private int number;
+
         //rank's description
-        private string description;
+        public string Description { get; }
 
         //read data
         public Rank(XmlNode rank)
         {
-            number = Int32.Parse(rank.ChildNodes[0].InnerText);
-            description = rank.ChildNodes[1].InnerText;
-        }
-
-        public string Description
-        {
-            get { return description; }
+            number = int.Parse(rank.ChildNodes[0].InnerText);
+            Description = rank.ChildNodes[1].InnerText;
         }
     }
 }

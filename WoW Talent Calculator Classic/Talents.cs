@@ -62,10 +62,10 @@ namespace WoW_Talent_Calculator_Classic
         private void ReadSettings()
         {
             reader = new StreamReader(File.Open(@"settings.txt", FileMode.Open));
-            t = Int32.Parse(reader.ReadLine());
-            x = Int32.Parse(reader.ReadLine());
-            y = Int32.Parse(reader.ReadLine());
-            pointsLeft = Int32.Parse(reader.ReadLine());
+            t = int.Parse(reader.ReadLine());
+            x = int.Parse(reader.ReadLine());
+            y = int.Parse(reader.ReadLine());
+            pointsLeft = int.Parse(reader.ReadLine());
             reader.Close();
         }
 
